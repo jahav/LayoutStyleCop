@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SourceAnalyzer Name="Layout analyzer">
+  <Description>
+    Analyzer for extra layout checks.
+  </Description>
+  <Rules>
+    <Rule Name="UsingMustNotBeSeparatedByBlankLine" CheckId="JR0001">
+      <Context>Using statements must not be separated by a blank line.</Context>
+      <Description>Validates that blocks of using statements don't have a blank line between them.</Description>
+    </Rule>
+  </Rules>
+</SourceAnalyzer>
